@@ -1,11 +1,11 @@
 # Proxy-Web-Server
 Advanced Computer Networks Project: Proxy Web Server
 
-/proxy_server
+/proxy_server  
 ├── src  
 │   ├── main.c                  // Entry point: initializes config, logging, and starts the server.  
 │   ├── server.c                // Network listener and accept loop.  
-│   ├── thread_pool.c           // Thread pool implementation using pthreads.  
+│   ├── thread_pool.c           // Thread pool implementation using p_threads.  
 │   ├── http_parser.c           // HTTP request parsing and handling.  
 │   ├── connection_handler.c    // Handles individual client connections.  
 │   ├── https_tunnel.c          // Handles CONNECT method and HTTPS tunneling.  
