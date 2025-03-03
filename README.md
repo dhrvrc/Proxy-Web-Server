@@ -42,27 +42,26 @@ python management_console.py            # run the Wev App
 ## Project Organisation
 
 /proxy_server  
-├── Makefile
-├── README.md
-├── block_list.txt
-├── include
-│   ├── cache.h
-│   ├── console.h
-│   ├── http_handler.h
-│   ├── logging.h
-│   ├── management_console.h
-│   ├── proxy.h
-│   └── thread_pool.h
-├── management_console.py
-├── requirements.txt
-├── src
-│   ├── cache.c
-│   ├── console.c
-│   ├── http_handler.c
-│   ├── logging.c
-│   ├── main.c
-│   ├── management_console.c
-│   ├── proxy.c
-│   └── thread_pool.c
+├── Makefile  
+├── README.md  
+├── block_list.txt  
+├── include  
+│   ├── cache.h  
+│   ├── console.h  
+│   ├── http_handler.h  
+│   ├── logging.h  
+│   ├── management_console.h  
+│   ├── proxy.h  
+│   └── thread_pool.h  
+├── management_console.py  
+├── requirements.txt  
+├── src  
+│   ├── cache.c  
+│   ├── console.c  
+│   ├── http_handler.c  
+│   ├── logging.c  
+│   ├── main.c  
+│   ├── management_console.c  
+│   ├── proxy.c  
+│   └── thread_pool.c  
 └── tests
-
