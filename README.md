@@ -1,5 +1,7 @@
 # Proxy-Web-Server
-Advanced Computer Networks Project: Proxy Web Server
+
+This is a multi-threadedHTTP/HTTPS proxy. It features request handling, URL blocking, response caching, and a management console for administrative actions. The core is written in C, with a simple Flask (Python) Web Application for the admin/management console.
+
 
 ## Project Organisation
 
