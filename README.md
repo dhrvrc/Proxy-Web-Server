@@ -1,6 +1,8 @@
 # Proxy-Web-Server
 Advanced Computer Networks Project: Proxy Web Server
 
+## Project Organisation
+
 /proxy_server  
 ├── src  
 │   ├── main.c                  // Entry point: initializes config, logging, and starts the server.    
