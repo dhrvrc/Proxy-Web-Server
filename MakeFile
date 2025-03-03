@@ -1,0 +1,31 @@
+# Compiler and flags
+CC = gcc
+CFLAGS = -Wall -Wextra -pthread -Iinclude -g
+
+# Directories and files
+SRCDIR = src
+OBJDIR = obj
+SOURCES = $(wildcard $(SRCDIR)/*.c)
+OBJECTS = $(patsubst $(SRCDIR)/%.c, $(OBJDIR)/%.o, $(SOURCES))
+TARGET = proxy
+
+# Default target
+all: $(TARGET)
+
+# Link the target executable
+$(TARGET): $(OBJECTS)
+	$(CC) $(CFLAGS) -o $@ $^
+
+# Compile source files into object files
+$(OBJDIR)/%.o: $(SRCDIR)/%.c | $(OBJDIR)
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+# Create the object directory if it doesn't exist
+$(OBJDIR):
+	mkdir -p $(OBJDIR)
+
+# Clean build artifacts
+clean:
+	rm -rf $(OBJDIR) $(TARGET)
+
+.PHONY: all clean

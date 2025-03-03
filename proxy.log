@@ -1,0 +1,687 @@
+[2025-03-02 23:15:54] INFO: Cache initialized
+[2025-03-02 23:15:54] INFO: Admin console thread started
+[2025-03-02 23:15:54] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:15:54] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:15:54] INFO: Proxy server listening on port 8080
+[2025-03-02 23:16:10] ERROR: Failed to accept client connection
+[2025-03-02 23:16:10] INFO: Shutdown signal received. Cleaning up...
+[2025-03-02 23:16:10] INFO: Thread pool destroyed
+[2025-03-02 23:16:10] INFO: Cache cleared
+[2025-03-02 23:16:11] INFO: Admin console thread stopped
+[2025-03-02 23:16:21] INFO: Cache initialized
+[2025-03-02 23:16:21] INFO: Admin console thread started
+[2025-03-02 23:16:21] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:16:21] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:16:21] INFO: Proxy server listening on port 8080
+[2025-03-02 23:16:37] INFO: Accepted connection from 127.0.0.1:50195
+[2025-03-02 23:16:37] INFO: Handling client on socket 5
+[2025-03-02 23:16:37] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+[2025-03-02 23:16:37] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:16:37] INFO: Blocked URL: http://example.com/
+[2025-03-02 23:16:48] INFO: Accepted connection from 127.0.0.1:50197
+[2025-03-02 23:16:48] INFO: Handling client on socket 5
+[2025-03-02 23:16:48] DEBUG: Raw request: GET http://facbook.com/ HTTP/1.1
+Host: facbook.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+[2025-03-02 23:16:48] DEBUG: Parsed Request - Method: GET, URL: http://facbook.com/, Host: facbook.com, Port: 80
+[2025-03-02 23:16:48] DEBUG: Cache miss for URL: http://facbook.com/
+[2025-03-02 23:16:48] INFO: HTTP request to http://facbook.com/ completed in 0.076 seconds
+[2025-03-02 23:16:48] INFO: Inserted cache entry for URL: http://facbook.com/
+[2025-03-02 23:16:48] INFO: Closed connection on socket 5
+[2025-03-02 23:17:13] INFO: Accepted connection from 127.0.0.1:50202
+[2025-03-02 23:17:13] INFO: Accepted connection from 127.0.0.1:50203
+[2025-03-02 23:17:13] INFO: Handling client on socket 5
+[2025-03-02 23:17:13] INFO: Handling client on socket 6
+[2025-03-02 23:17:14] ERROR: Failed to read from client socket
+[2025-03-02 23:17:14] ERROR: Failed to parse HTTP request on socket 5
+[2025-03-02 23:17:14] ERROR: Failed to read from client socket
+[2025-03-02 23:17:14] ERROR: Failed to parse HTTP request on socket 6
+[2025-03-02 23:17:35] INFO: Accepted connection from 127.0.0.1:50232
+[2025-03-02 23:17:35] INFO: Handling client on socket 5
+[2025-03-02 23:17:35] DEBUG: Raw request: CONNECT qa.sockets.stackexchange.com:443 HTTP/1.1
+Host: qa.sockets.stackexchange.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+
+
+[2025-03-02 23:17:35] DEBUG: Parsed Request - Method: CONNECT, URL: qa.sockets.stackexchange.com, Host: qa.sockets.stackexchange.com, Port: 443
+[2025-03-02 23:17:53] INFO: Accepted connection from 127.0.0.1:50252
+[2025-03-02 23:17:53] INFO: Accepted connection from 127.0.0.1:50253
+[2025-03-02 23:17:53] INFO: Handling client on socket 9
+[2025-03-02 23:17:53] DEBUG: Raw request: GET http://neverssl.com/ HTTP/1.1
+Host: neverssl.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:17:53] INFO: Handling client on socket 10
+[2025-03-02 23:17:53] DEBUG: Parsed Request - Method: GET, URL: http://neverssl.com/, Host: neverssl.com, Port: 80
+[2025-03-02 23:17:53] INFO: Blocked URL: http://neverssl.com/
+[2025-03-02 23:17:53] DEBUG: Raw request: GET http://neverssl.com/favicon.ico HTTP/1.1
+Host: neverssl.com
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://neverssl.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:17:53] DEBUG: Parsed Request - Method: GET, URL: http://neverssl.com/favicon.ico, Host: neverssl.com, Port: 80
+[2025-03-02 23:17:53] INFO: Blocked URL: http://neverssl.com/favicon.ico
+[2025-03-02 23:18:03] INFO: Accepted connection from 127.0.0.1:50260
+[2025-03-02 23:18:03] INFO: Accepted connection from 127.0.0.1:50261
+[2025-03-02 23:18:03] INFO: Handling client on socket 9
+[2025-03-02 23:18:03] INFO: Handling client on socket 10
+[2025-03-02 23:18:03] DEBUG: Raw request: GET http://neverssl.com/ HTTP/1.1
+Host: neverssl.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:18:03] DEBUG: Parsed Request - Method: GET, URL: http://neverssl.com/, Host: neverssl.com, Port: 80
+[2025-03-02 23:18:03] DEBUG: Cache miss for URL: http://neverssl.com/
+[2025-03-02 23:18:03] INFO: HTTP request to http://neverssl.com/ completed in 0.443 seconds
+[2025-03-02 23:18:03] INFO: Inserted cache entry for URL: http://neverssl.com/
+[2025-03-02 23:18:03] INFO: Closed connection on socket 9
+[2025-03-02 23:18:03] DEBUG: Raw request: GET http://neverssl.com/favicon.ico HTTP/1.1
+Host: neverssl.com
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://neverssl.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:18:03] DEBUG: Parsed Request - Method: GET, URL: http://neverssl.com/favicon.ico, Host: neverssl.com, Port: 80
+[2025-03-02 23:18:03] DEBUG: Cache miss for URL: http://neverssl.com/favicon.ico
+[2025-03-02 23:18:03] INFO: HTTP request to http://neverssl.com/favicon.ico completed in 0.393 seconds
+[2025-03-02 23:18:03] INFO: Inserted cache entry for URL: http://neverssl.com/favicon.ico
+[2025-03-02 23:18:03] INFO: Closed connection on socket 10
+[2025-03-02 23:20:30] INFO: Accepted connection from 127.0.0.1:50304
+[2025-03-02 23:20:30] INFO: Handling client on socket 9
+[2025-03-02 23:20:30] DEBUG: Raw request: GET http://static.ess.apple.com/identity/validation/cert-1.0.plist HTTP/1.1
+Host: static.ess.apple.com
+Proxy-Connection: keep-alive
+Accept: */*
+User-Agent: com.apple.invitation-registration [macOS,15.1.1,24B91,Mac14,2]
+Accept-Language: en-GB,en;q=0.9
+Accept-Encoding: gzip
+Connection: keep-alive
+
+
+[2025-03-02 23:20:30] DEBUG: Parsed Request - Method: GET, URL: http://static.ess.apple.com/identity/validation/cert-1.0.plist, Host: static.ess.apple.com, Port: 80
+[2025-03-02 23:20:30] DEBUG: Cache miss for URL: http://static.ess.apple.com/identity/validation/cert-1.0.plist
+[2025-03-02 23:20:30] INFO: HTTP request to http://static.ess.apple.com/identity/validation/cert-1.0.plist completed in 0.064 seconds
+[2025-03-02 23:20:30] INFO: Inserted cache entry for URL: http://static.ess.apple.com/identity/validation/cert-1.0.plist
+[2025-03-02 23:20:30] INFO: Closed connection on socket 9
+[2025-03-02 23:24:44] ERROR: Failed to accept client connection
+[2025-03-02 23:24:44] INFO: Shutdown signal received. Cleaning up...
+[2025-03-02 23:25:10] INFO: Cache initialized
+[2025-03-02 23:25:10] INFO: Admin console thread started
+[2025-03-02 23:25:10] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:25:10] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:25:10] INFO: Proxy server listening on port 8080
+[2025-03-02 23:26:05] INFO: Accepted connection from 127.0.0.1:50378
+[2025-03-02 23:26:05] INFO: Accepted connection from 127.0.0.1:50379
+[2025-03-02 23:26:05] INFO: Handling client on socket 5
+[2025-03-02 23:26:05] INFO: Handling client on socket 6
+[2025-03-02 23:26:05] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+If-None-Match: "84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134"
+If-Modified-Since: Mon, 13 Jan 2025 20:11:20 GMT
+
+
+[2025-03-02 23:26:05] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:26:05] INFO: Removed cache entries for URL: example.com
+[2025-03-02 23:26:05] INFO: Blocked URL: example.com
+[2025-03-02 23:26:09] ERROR: Failed to read from client socket
+[2025-03-02 23:26:09] ERROR: Failed to parse HTTP request on socket 6
+[2025-03-02 23:26:11] INFO: Accepted connection from 127.0.0.1:50386
+[2025-03-02 23:26:11] INFO: Accepted connection from 127.0.0.1:50387
+[2025-03-02 23:26:11] INFO: Handling client on socket 5
+[2025-03-02 23:26:11] INFO: Handling client on socket 6
+[2025-03-02 23:26:11] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:26:11] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:26:11] DEBUG: Cache miss for URL: http://example.com/
+[2025-03-02 23:26:11] INFO: HTTP request to http://example.com/ completed in 0.388 seconds
+[2025-03-02 23:26:11] INFO: Inserted cache entry for URL: http://example.com/
+[2025-03-02 23:26:11] INFO: Closed connection on socket 5
+[2025-03-02 23:26:14] ERROR: Failed to read from client socket
+[2025-03-02 23:26:14] ERROR: Failed to parse HTTP request on socket 6
+[2025-03-02 23:48:31] INFO: Cache initialized
+[2025-03-02 23:48:31] INFO: Admin console thread started
+[2025-03-02 23:48:31] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:48:31] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:48:31] INFO: Proxy server listening on port 8080
+[2025-03-02 23:49:10] INFO: Accepted connection from 127.0.0.1:50581
+[2025-03-02 23:49:10] INFO: Accepted connection from 127.0.0.1:50582
+[2025-03-02 23:49:10] INFO: Handling client on socket 5
+[2025-03-02 23:49:10] INFO: Handling client on socket 6
+[2025-03-02 23:49:10] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+If-Modified-Since: Mon, 13 Jan 2025 20:11:20 GMT
+
+
+[2025-03-02 23:49:10] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:49:10] DEBUG: Cache miss for URL: http://example.com/
+[2025-03-02 23:49:10] INFO: HTTP request to http://example.com/ completed in 0.381 seconds
+[2025-03-02 23:49:10] INFO: Inserted cache entry for URL: http://example.com/
+[2025-03-02 23:49:10] INFO: Closed connection on socket 5
+[2025-03-02 23:49:10] DEBUG: Raw request: GET http://example.com/favicon.ico HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://example.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:49:10] DEBUG: Parsed Request - Method: GET, URL: http://example.com/favicon.ico, Host: example.com, Port: 80
+[2025-03-02 23:49:10] DEBUG: Cache miss for URL: http://example.com/favicon.ico
+[2025-03-02 23:49:11] INFO: HTTP request to http://example.com/favicon.ico completed in 0.356 seconds
+[2025-03-02 23:49:11] INFO: Inserted cache entry for URL: http://example.com/favicon.ico
+[2025-03-02 23:49:11] INFO: Closed connection on socket 6
+[2025-03-02 23:49:16] ERROR: Failed to accept client connection
+[2025-03-02 23:49:16] INFO: Shutdown signal received. Cleaning up...
+[2025-03-02 23:49:16] INFO: Thread pool destroyed
+[2025-03-02 23:49:16] INFO: Cache cleared
+[2025-03-02 23:49:17] INFO: Admin console thread stopped
+[2025-03-02 23:49:18] INFO: Cache initialized
+[2025-03-02 23:49:18] INFO: Admin console thread started
+[2025-03-02 23:49:18] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:49:18] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:49:18] INFO: Proxy server listening on port 8080
+[2025-03-02 23:49:20] ERROR: Failed to accept client connection
+[2025-03-02 23:49:20] INFO: Shutdown signal received. Cleaning up...
+[2025-03-02 23:49:20] INFO: Thread pool destroyed
+[2025-03-02 23:49:20] INFO: Cache cleared
+[2025-03-02 23:49:21] INFO: Admin console thread stopped
+[2025-03-02 23:50:11] INFO: Cache initialized
+[2025-03-02 23:50:11] INFO: Admin console thread started
+[2025-03-02 23:50:11] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:50:11] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:50:11] INFO: Proxy server listening on port 8080
+[2025-03-02 23:50:42] INFO: Accepted connection from 127.0.0.1:50591
+[2025-03-02 23:50:42] INFO: Accepted connection from 127.0.0.1:50592
+[2025-03-02 23:50:42] INFO: Handling client on socket 5
+[2025-03-02 23:50:42] INFO: Handling client on socket 6
+[2025-03-02 23:51:03] ERROR: Failed to accept client connection
+[2025-03-02 23:51:03] INFO: Shutdown signal received. Cleaning up...
+[2025-03-02 23:51:52] INFO: Cache initialized
+[2025-03-02 23:51:52] INFO: Admin console thread started
+[2025-03-02 23:51:52] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:51:52] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:51:52] INFO: Proxy server listening on port 8080
+[2025-03-02 23:52:15] ERROR: Failed to accept client connection
+[2025-03-02 23:52:15] INFO: Shutdown signal received. Cleaning up...
+[2025-03-02 23:52:15] INFO: Thread pool destroyed
+[2025-03-02 23:52:15] INFO: Cache cleared
+[2025-03-02 23:52:16] INFO: Admin console thread stopped
+[2025-03-02 23:52:44] INFO: Cache initialized
+[2025-03-02 23:52:44] INFO: Admin console thread started
+[2025-03-02 23:52:44] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:52:44] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:52:44] INFO: Proxy server listening on port 8080
+[2025-03-02 23:53:41] INFO: Accepted connection from 127.0.0.1:50627
+[2025-03-02 23:53:41] INFO: Handling client on socket 5
+[2025-03-02 23:53:41] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Sec-Purpose: prefetch;prerender
+Purpose: prefetch
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:53:41] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:53:41] DEBUG: Cache miss for URL: http://example.com/
+[2025-03-02 23:53:41] INFO: HTTP request to http://example.com/ completed in 0.402 seconds
+[2025-03-02 23:53:41] INFO: Inserted cache entry for URL: http://example.com/
+[2025-03-02 23:53:41] INFO: Closed connection on socket 5
+[2025-03-02 23:54:15] INFO: Accepted connection from 127.0.0.1:50641
+[2025-03-02 23:54:15] INFO: Accepted connection from 127.0.0.1:50642
+[2025-03-02 23:54:15] INFO: Handling client on socket 5
+[2025-03-02 23:54:15] INFO: Handling client on socket 8
+[2025-03-02 23:54:15] ERROR: Failed to read from client socket
+[2025-03-02 23:54:15] ERROR: Failed to parse HTTP request on socket 5
+[2025-03-02 23:54:15] ERROR: Failed to read from client socket
+[2025-03-02 23:54:15] ERROR: Failed to parse HTTP request on socket 8
+[2025-03-02 23:54:27] INFO: Accepted connection from 127.0.0.1:50646
+[2025-03-02 23:54:27] INFO: Accepted connection from 127.0.0.1:50647
+[2025-03-02 23:54:27] INFO: Handling client on socket 5
+[2025-03-02 23:54:27] INFO: Handling client on socket 8
+[2025-03-02 23:54:30] ERROR: Failed to read from client socket
+[2025-03-02 23:54:30] ERROR: Failed to parse HTTP request on socket 5
+[2025-03-02 23:54:30] ERROR: Failed to read from client socket
+[2025-03-02 23:54:30] ERROR: Failed to parse HTTP request on socket 8
+[2025-03-02 23:54:48] ERROR: Failed to accept client connection
+[2025-03-02 23:54:48] INFO: Shutdown signal received. Cleaning up...
+[2025-03-02 23:54:48] INFO: Thread pool destroyed
+[2025-03-02 23:54:48] INFO: Cache cleared
+[2025-03-02 23:54:49] INFO: Admin console thread stopped
+[2025-03-02 23:54:52] INFO: Cache initialized
+[2025-03-02 23:54:52] INFO: Admin console thread started
+[2025-03-02 23:54:52] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:54:52] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:54:52] INFO: Proxy server listening on port 8080
+[2025-03-02 23:55:20] INFO: Accepted connection from 127.0.0.1:50667
+[2025-03-02 23:55:20] INFO: Handling client on socket 5
+[2025-03-02 23:55:20] DEBUG: Raw request: GET http://example.com/favicon.ico HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://example.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:55:20] DEBUG: Parsed Request - Method: GET, URL: http://example.com/favicon.ico, Host: example.com, Port: 80
+[2025-03-02 23:55:20] INFO: Removed cache entries for URL: example.com
+[2025-03-02 23:55:20] INFO: Blocked URL: example.com
+[2025-03-02 23:55:38] ERROR: Failed to accept client connection
+[2025-03-02 23:55:38] INFO: Shutdown signal received. Cleaning up...
+[2025-03-02 23:55:38] INFO: Thread pool destroyed
+[2025-03-02 23:55:38] INFO: Cache cleared
+[2025-03-02 23:55:38] INFO: Admin console thread stopped
+[2025-03-02 23:56:09] INFO: Cache initialized
+[2025-03-02 23:56:09] INFO: Admin console thread started
+[2025-03-02 23:56:09] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:56:09] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:56:09] INFO: Proxy server listening on port 8080
+[2025-03-02 23:56:16] INFO: Accepted connection from 127.0.0.1:50682
+[2025-03-02 23:56:16] INFO: Handling client on socket 5
+[2025-03-02 23:56:16] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Sec-Purpose: prefetch;prerender
+Purpose: prefetch
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:56:16] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:56:16] INFO: Removed cache entries for URL: example.com
+[2025-03-02 23:56:16] INFO: Blocked URL: example.com
+[2025-03-02 23:56:16] INFO: Accepted connection from 127.0.0.1:50685
+[2025-03-02 23:56:16] INFO: Accepted connection from 127.0.0.1:50686
+[2025-03-02 23:56:16] INFO: Handling client on socket 5
+[2025-03-02 23:56:16] INFO: Handling client on socket 6
+[2025-03-02 23:56:16] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:56:16] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:56:16] INFO: Removed cache entries for URL: example.com
+[2025-03-02 23:56:16] INFO: Blocked URL: example.com
+[2025-03-02 23:56:17] DEBUG: Raw request: GET http://example.com/favicon.ico HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://example.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:56:17] DEBUG: Parsed Request - Method: GET, URL: http://example.com/favicon.ico, Host: example.com, Port: 80
+[2025-03-02 23:56:17] INFO: Removed cache entries for URL: example.com
+[2025-03-02 23:56:17] INFO: Blocked URL: example.com
+[2025-03-02 23:56:30] INFO: Accepted connection from 127.0.0.1:50695
+[2025-03-02 23:56:30] INFO: Accepted connection from 127.0.0.1:50696
+[2025-03-02 23:56:30] INFO: Handling client on socket 5
+[2025-03-02 23:56:30] INFO: Handling client on socket 6
+[2025-03-02 23:56:30] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:56:30] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:56:30] DEBUG: Cache miss for URL: http://example.com/
+[2025-03-02 23:56:30] INFO: HTTP request to http://example.com/ completed in 0.393 seconds
+[2025-03-02 23:56:30] INFO: Inserted cache entry for URL: http://example.com/
+[2025-03-02 23:56:30] INFO: Closed connection on socket 5
+[2025-03-02 23:56:30] DEBUG: Raw request: GET http://example.com/favicon.ico HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://example.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:56:30] DEBUG: Parsed Request - Method: GET, URL: http://example.com/favicon.ico, Host: example.com, Port: 80
+[2025-03-02 23:56:30] DEBUG: Cache miss for URL: http://example.com/favicon.ico
+[2025-03-02 23:56:30] INFO: HTTP request to http://example.com/favicon.ico completed in 0.368 seconds
+[2025-03-02 23:56:30] INFO: Inserted cache entry for URL: http://example.com/favicon.ico
+[2025-03-02 23:56:30] INFO: Closed connection on socket 6
+[2025-03-02 23:57:30] ERROR: Failed to accept client connection
+[2025-03-02 23:57:30] INFO: Shutdown signal received. Cleaning up...
+[2025-03-02 23:57:30] INFO: Thread pool destroyed
+[2025-03-02 23:57:30] INFO: Cache cleared
+[2025-03-02 23:57:30] INFO: Admin console thread stopped
+[2025-03-02 23:58:05] INFO: Cache initialized
+[2025-03-02 23:58:05] INFO: Admin console thread started
+[2025-03-02 23:58:05] INFO: Thread pool initialized with 4 threads
+[2025-03-02 23:58:05] INFO: Server socket created, listening on port 8080
+[2025-03-02 23:58:05] INFO: Proxy server listening on port 8080
+[2025-03-02 23:58:20] INFO: Accepted connection from 127.0.0.1:50735
+[2025-03-02 23:58:20] INFO: Handling client on socket 5
+[2025-03-02 23:58:20] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Sec-Purpose: prefetch;prerender
+Purpose: prefetch
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:58:20] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:58:20] INFO: Removed cache entries for URL: example.com
+[2025-03-02 23:58:20] INFO: Blocked URL: example.com
+[2025-03-02 23:58:21] INFO: Accepted connection from 127.0.0.1:50738
+[2025-03-02 23:58:21] INFO: Accepted connection from 127.0.0.1:50739
+[2025-03-02 23:58:21] INFO: Handling client on socket 5
+[2025-03-02 23:58:21] INFO: Handling client on socket 6
+[2025-03-02 23:58:21] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:58:21] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:58:21] INFO: Removed cache entries for URL: example.com
+[2025-03-02 23:58:21] INFO: Blocked URL: example.com
+[2025-03-02 23:58:25] ERROR: Failed to read from client socket
+[2025-03-02 23:58:25] ERROR: Failed to parse HTTP request on socket 6
+[2025-03-02 23:58:34] INFO: Accepted connection from 127.0.0.1:50746
+[2025-03-02 23:58:34] INFO: Accepted connection from 127.0.0.1:50747
+[2025-03-02 23:58:34] INFO: Handling client on socket 5
+[2025-03-02 23:58:34] INFO: Handling client on socket 6
+[2025-03-02 23:58:34] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-02 23:58:34] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-02 23:58:34] DEBUG: Cache miss for URL: http://example.com/
+[2025-03-02 23:58:35] INFO: HTTP request to http://example.com/ completed in 0.383 seconds
+[2025-03-02 23:58:35] INFO: Inserted cache entry for URL: http://example.com/
+[2025-03-02 23:58:35] INFO: Closed connection on socket 5
+[2025-03-02 23:58:35] ERROR: Failed to read from client socket
+[2025-03-02 23:58:35] ERROR: Failed to parse HTTP request on socket 6
+[2025-03-02 23:59:35] INFO: Accepted connection from 127.0.0.1:50751
+[2025-03-02 23:59:35] INFO: Handling client on socket 5
+[2025-03-02 23:59:35] DEBUG: Raw request: GET http://updates-http.cdn-apple.com/2018/ios/091-95839-20181106-153AE6C0-DEBD-11E8-B087-C232290FBED4/com_apple_MobileAsset_MediaSupport/9c29744aff6744b47e1521dd103bba72f2600bef.zip HTTP/1.1
+Host: updates-http.cdn-apple.com
+Proxy-Connection: keep-alive
+Accept: */*
+User-Agent: MobileAsset/1 MAClient/QuickTime Player MABrain/BuiltIn MAAssetType/com_apple_MobileAsset_MediaSupport BuildVersion/24B91
+Accept-Language: en-GB,en;q=0.9
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+[2025-03-02 23:59:35] DEBUG: Parsed Request - Method: GET, URL: http://updates-http.cdn-apple.com/2018/ios/091-95839-20181106-153AE6C0-DEBD-11E8-B087-C232290FBED4/com_apple_MobileAsset_MediaSupport/9c29744aff6744b47e1521dd103bba72f2600bef.zip, Host: updates-http.cdn-apple.com, Port: 80
+[2025-03-02 23:59:35] DEBUG: Cache miss for URL: http://updates-http.cdn-apple.com/2018/ios/091-95839-20181106-153AE6C0-DEBD-11E8-B087-C232290FBED4/com_apple_MobileAsset_MediaSupport/9c29744aff6744b47e1521dd103bba72f2600bef.zip
+[2025-03-02 23:59:35] INFO: HTTP request to http://updates-http.cdn-apple.com/2018/ios/091-95839-20181106-153AE6C0-DEBD-11E8-B087-C232290FBED4/com_apple_MobileAsset_MediaSupport/9c29744aff6744b47e1521dd103bba72f2600bef.zip completed in 0.050 seconds
+[2025-03-02 23:59:35] INFO: Inserted cache entry for URL: http://updates-http.cdn-apple.com/2018/ios/091-95839-20181106-153AE6C0-DEBD-11E8-B087-C232290FBED4/com_apple_MobileAsset_MediaSupport/9c29744aff6744b47e1521dd103bba72f2600bef.zip
+[2025-03-02 23:59:35] INFO: Closed connection on socket 5
+[2025-03-03 00:00:34] INFO: Accepted connection from 127.0.0.1:50754
+[2025-03-03 00:00:34] INFO: Handling client on socket 5
+[2025-03-03 00:01:03] ERROR: Failed to read from client socket
+[2025-03-03 00:01:03] ERROR: Failed to parse HTTP request on socket 5
+[2025-03-03 00:07:48] ERROR: Failed to accept client connection
+[2025-03-03 00:07:48] INFO: Shutdown signal received. Cleaning up...
+[2025-03-03 00:07:48] INFO: Thread pool destroyed
+[2025-03-03 00:07:48] INFO: Cache cleared
+[2025-03-03 00:07:49] INFO: Admin console thread stopped
+[2025-03-03 00:12:34] INFO: Cache initialized
+[2025-03-03 00:12:34] INFO: Admin console thread started
+[2025-03-03 00:12:34] INFO: Thread pool initialized with 4 threads
+[2025-03-03 00:12:34] INFO: Server socket created, listening on port 8080
+[2025-03-03 00:12:34] INFO: Proxy server listening on port 8080
+[2025-03-03 00:15:56] ERROR: Failed to accept client connection
+[2025-03-03 00:15:56] INFO: Shutdown signal received. Cleaning up...
+[2025-03-03 00:15:56] INFO: Thread pool destroyed
+[2025-03-03 00:15:56] INFO: Cache cleared
+[2025-03-03 00:15:56] INFO: Admin console thread stopped
+[2025-03-03 00:17:52] INFO: Cache initialized
+[2025-03-03 00:17:52] INFO: Admin console thread started
+[2025-03-03 00:17:52] INFO: Thread pool initialized with 4 threads
+[2025-03-03 00:17:52] INFO: Server socket created, listening on port 8080
+[2025-03-03 00:17:52] INFO: Proxy server listening on port 8080
+[2025-03-03 00:18:42] INFO: Accepted connection from 127.0.0.1:50969
+[2025-03-03 00:18:42] INFO: Handling client on socket 5
+[2025-03-03 00:18:42] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Sec-Purpose: prefetch;prerender
+Purpose: prefetch
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-03 00:18:42] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-03 00:18:42] INFO: Removed cache entries for URL: example.com
+[2025-03-03 00:18:42] INFO: Blocked URL: example.com
+[2025-03-03 00:18:43] INFO: Accepted connection from 127.0.0.1:50973
+[2025-03-03 00:18:43] INFO: Accepted connection from 127.0.0.1:50974
+[2025-03-03 00:18:43] INFO: Handling client on socket 5
+[2025-03-03 00:18:43] INFO: Handling client on socket 6
+[2025-03-03 00:18:43] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-03 00:18:43] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-03 00:18:43] INFO: Removed cache entries for URL: example.com
+[2025-03-03 00:18:43] INFO: Blocked URL: example.com
+[2025-03-03 00:18:46] ERROR: Failed to read from client socket
+[2025-03-03 00:18:46] ERROR: Failed to parse HTTP request on socket 6
+[2025-03-03 00:18:49] ERROR: Failed to accept client connection
+[2025-03-03 00:18:49] INFO: Shutdown signal received. Cleaning up...
+[2025-03-03 00:18:49] INFO: Thread pool destroyed
+[2025-03-03 00:18:49] INFO: Cache cleared
+[2025-03-03 00:18:50] INFO: Admin console thread stopped
+[2025-03-03 00:19:39] INFO: Cache initialized
+[2025-03-03 00:19:39] INFO: Admin console thread started
+[2025-03-03 00:19:39] INFO: Thread pool initialized with 4 threads
+[2025-03-03 00:19:39] INFO: Server socket created, listening on port 8080
+[2025-03-03 00:19:39] INFO: Proxy server listening on port 8080
+[2025-03-03 00:20:09] INFO: Accepted connection from 127.0.0.1:51014
+[2025-03-03 00:20:09] INFO: Handling client on socket 5
+[2025-03-03 00:20:09] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Sec-Purpose: prefetch;prerender
+Purpose: prefetch
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-03 00:20:09] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-03 00:20:09] INFO: Removed cache entries for URL: example.com
+[2025-03-03 00:20:09] INFO: Blocked URL: example.com
+[2025-03-03 00:20:10] INFO: Accepted connection from 127.0.0.1:51017
+[2025-03-03 00:20:10] INFO: Accepted connection from 127.0.0.1:51018
+[2025-03-03 00:20:10] INFO: Handling client on socket 5
+[2025-03-03 00:20:10] INFO: Handling client on socket 6
+[2025-03-03 00:20:10] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-03 00:20:10] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-03 00:20:10] INFO: Removed cache entries for URL: example.com
+[2025-03-03 00:20:10] INFO: Blocked URL: example.com
+[2025-03-03 00:20:11] ERROR: Failed to read from client socket
+[2025-03-03 00:20:11] ERROR: Failed to parse HTTP request on socket 6
+[2025-03-03 00:20:41] INFO: Accepted connection from 127.0.0.1:51029
+[2025-03-03 00:20:41] INFO: Accepted connection from 127.0.0.1:51030
+[2025-03-03 00:20:41] INFO: Handling client on socket 5
+[2025-03-03 00:20:41] INFO: Handling client on socket 6
+[2025-03-03 00:20:41] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-03 00:20:41] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-03 00:20:41] DEBUG: Cache miss for URL: http://example.com/
+[2025-03-03 00:20:42] INFO: HTTP request to http://example.com/ completed in 0.405 seconds
+[2025-03-03 00:20:42] INFO: Inserted cache entry for URL: http://example.com/
+[2025-03-03 00:20:42] INFO: Closed connection on socket 5
+[2025-03-03 00:20:45] INFO: Accepted connection from 127.0.0.1:51034
+[2025-03-03 00:20:45] INFO: Handling client on socket 5
+[2025-03-03 00:20:45] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-03 00:20:45] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-03 00:20:45] DEBUG: Cache hit for URL: http://example.com/ (frequency now 2)
+[2025-03-03 00:20:45] INFO: Serving cached content for http://example.com/
+[2025-03-03 00:20:46] ERROR: Failed to read from client socket
+[2025-03-03 00:20:46] ERROR: Failed to parse HTTP request on socket 5
+[2025-03-03 00:20:52] INFO: Accepted connection from 127.0.0.1:51036
+[2025-03-03 00:20:52] INFO: Handling client on socket 5
+[2025-03-03 00:20:52] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Sec-Purpose: prefetch;prerender
+Purpose: prefetch
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-03 00:20:52] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-03 00:20:52] DEBUG: Cache hit for URL: http://example.com/ (frequency now 3)
+[2025-03-03 00:20:52] INFO: Serving cached content for http://example.com/
+[2025-03-03 00:20:53] INFO: Accepted connection from 127.0.0.1:51039
+[2025-03-03 00:20:53] INFO: Accepted connection from 127.0.0.1:51040
+[2025-03-03 00:20:53] INFO: Handling client on socket 5
+[2025-03-03 00:20:53] INFO: Handling client on socket 6
+[2025-03-03 00:20:53] DEBUG: Raw request: GET http://example.com/ HTTP/1.1
+Host: example.com
+Proxy-Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[2025-03-03 00:20:53] DEBUG: Parsed Request - Method: GET, URL: http://example.com/, Host: example.com, Port: 80
+[2025-03-03 00:20:53] DEBUG: Cache hit for URL: http://example.com/ (frequency now 4)
+[2025-03-03 00:20:53] INFO: Serving cached content for http://example.com/
+[2025-03-03 00:20:56] ERROR: Failed to read from client socket
+[2025-03-03 00:20:56] ERROR: Failed to parse HTTP request on socket 6
+[2025-03-03 00:21:00] ERROR: Failed to accept client connection
+[2025-03-03 00:21:00] INFO: Shutdown signal received. Cleaning up...
+[2025-03-03 00:21:00] INFO: Thread pool destroyed
+[2025-03-03 00:21:00] INFO: Cache cleared
+[2025-03-03 00:21:01] INFO: Admin console thread stopped
