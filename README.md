@@ -22,9 +22,9 @@ Advanced Computer Networks Project: Proxy Web Server
 │   ├── management_console.h  
 │   └── logging.h  
 ├── tests  
-│   ├── 
-├── docs
-│   ├── 
+│   ├──  
+├── docs  
+│   ├──   
 ├── Makefile                  // Build configuration.  
 └── README.md                  
 
