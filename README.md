@@ -2,7 +2,7 @@
 
 This is a multi-threadedHTTP/HTTPS proxy. It features request handling, URL blocking, response caching (HTTP Only), and a management console for administrative actions. The core is written in C, with a simple Flask (Python) Web Application for the admin/management console.
 
-## Dependencies/Prereuisites
+## Dependencies/Prerequisites
 | Dependency | Version     | Install                                   |
 |------------|-------------|-------------------------------------------|
 | C          | 23 Standard | [docs](https://installc.org/)             |
