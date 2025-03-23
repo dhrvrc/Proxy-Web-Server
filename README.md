@@ -35,7 +35,7 @@ pip install -r requirements.txt         # installs all the requirements into the
 After running the proxy, on a separate shell tab/window.Launch the web app (currently binds to localhost:3000)
 ```console
 source venv/bin/activate                # activates virtual environment
-python management_console.py            # run the Wev App
+python management_console.py            # run the Web App
 ```
 
 
